@@ -84,3 +84,14 @@ workspace/**
 
 # ingore temporary data files
 *.dat
+# Local Corda credentials and generated files
+workspace/*.pfx
+workspace/*.jks
+workspace/*.pem
+workspace/*.key
+workspace/signingkeys*
+.env
+.env.*
+build/
+**/build/
+.gradle/
